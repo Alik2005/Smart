@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+ 
+body{ 
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0px; 
+} 
+ 
+header{ 
+    width: 100%; 
+    min-height: 80vh; 
+    background: url('../img/banner.jpg') bottom / cover; 
+} 
+ 
+header nav{ 
+    display: flex; 
+    justify-content: space-around; 
+    padding: 20px 0px; 
+} 
+ 
+header nav a{ 
+    font-size: 2rem; 
+    border: 4px solid gray; 
+    padding: 10px; 
+    text-decoration: none; 
+    font-weight: 500; 
+} 
+ 
+header nav button{ 
+    font-size: 2rem; 
+    background: none; 
+    border: none; 
+} 
+ 
+.banner{ 
+    text-align: center; 
+} 
+ 
+.h1{ 
+    font-weight: 500; 
+} 
+ 
+.p{ 
+    width: 60%; 
+    font-size: 20px; 
+    margin: 0px auto; 
+} 
+ 
+.banner .form{ 
+    width: 30%; 
+    display: flex; 
+    flex-direction: column; 
+    background-color: white; 
+    box-shadow: 0px 0px 35px 15px gray; 
+    text-align: center; 
+    padding: 20px; 
+    margin-left: 15%; 
+    margin-top: 40px; 
+} 
+ 
+.banner .form input{ 
+    padding: 10px 0px; 
+} 
+ 
+.banner .form textarea{ 
+    height: 120px; 
+} 
+ 
+.input{ 
+    margin: 20px 0px; 
+    border: none; 
+    border-bottom: 1px solid gray; 
+    font-size: 15px; 
+    outline: none; 
+} 
+ 
+.banner .form button{ 
+    background-color: coral; 
+    padding: 10px 20px; 
+    margin: auto; 
+    font-size: 18px; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+} 
+ 
+.process{ 
+    text-align: center; 
+    padding: 50px 0px; 
+} 
+ 
+.process section{ 
+    display: flex; 
+    padding: 40px 60px; 
+    justify-content: space-around; 
+} 
+ 
+.process section div{ 
+    background-color: rgb(250, 105, 250); 
+    width: 22%; 
+    padding: 30px 0px; 
+} 
+ 
+.process section div *{ 
+    color: white; 
+} 
+ 
+.process section div h3{ 
+    font-weight: 500; 
+} 
+ 
+.process section div h5{ 
+    font-weight: 500; 
+} 
+ 
+.process section div button{ 
+    padding: 15px 40px; 
+    font-size: 20px; 
+    border: none; 
+    background-color: rgb(141, 10, 10); 
+    position: relative; 
+    top: 40px; 
+    border-radius: 30px; 
+} 
+ 
+ 
+.grid{ 
+    text-align: center; 
+} 
+ 
+.grid section{ 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-auto-rows: 300px; 
+    padding: 20px 100px; 
+    grid-gap: 20px; 
+} 
+ 
+.box1{ 
+    background: url('../img/gustavo-zambelli-3Sz0rX3Rxto-unsplash.jpg') center / cover; 
+} 
+ 
+.box2{ 
+    background: url('../img/anthony-cantin-s-4JvA8sMsA-unsplash.jpg') center / cover; 
+} 
+ 
+.box3{ 
+    background: url('../img/daniel-sessler--5xPlN5-jfc-unsplash.jpg') center / cover; 
+} 
+ 
+.watch{ 
+    text-align: center; 
+} 
+ 
+.watch section{ 
+    display: flex; 
+    padding: 20px 80px; 
+    text-align: left; 
+    justify-content: space-between; 
+} 
+ 
+.watch section div{ 
+    width: 45%; 
+} 
+ 
+.watch section div h1{ 
+    font-size: 25px; 
+} 
+ 
+.watch section div p{ 
+    font-size: 18px; 
+} 
+ 
+.watch section div button{ 
+    margin: 20px 0px; 
+    padding: 10px 30px; 
+    background-color: rgb(141, 10, 10); 
+    border: none; 
+    border-radius: 20px; 
+    color: white; 
+    font-size: 20px; 
+} 
+ 
+.watch section div:nth-child(2) img{ 
+    width: 100%; 
+    height: 100%; 
+}
+
+.person{
+    text-align: center;
+}
+
+.person section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 100px;
+    flex-wrap: wrap;
+}
+
+.person section div{
+    width: 30%;
+}
+
+.person section div img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+}
+
+footer .png img{
+    width: calc(100% / 3);
+}
